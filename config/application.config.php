@@ -6,7 +6,7 @@ return [
         'module_paths' => [
             './module',
             './vendor',
-            'PhpBenchmarksZendFramework\\RestApiModule' => './vendor/phpbenchmarks/zend-framework/src'
+            'PhpBenchmarksZendFramework\\RestApiModule' => './vendor/phpbenchmarks/zend-framework-common/src'
         ],
         'config_glob_paths' => [
             realpath(__DIR__) . '/autoload/{{,*.}global,{,*.}local}.php',
